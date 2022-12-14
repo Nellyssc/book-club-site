@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body
+{
+    background: url(bookclub.com.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.logo
+{
+color: black;
+font-style: italic;
+font-size: 30px;
+}
+.logo span
+{
+    color: greenyellow;
+
+}
+.menu-bar 
+{
+    background: purple;
+    text-align: center
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration:none ;
+    color:none;
+}
+.active, .menu-bar ul list-style:hover
+{
+    background-color: rgb(0, 10, 10);
+    border-radius: 3px;   
+}
+
+  .sub-menu-1 ul 
+{
+    display: block;
+    position: absolute;
+    background: purple;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+
+}
+.sub-menu-1 ul li:hover 
+{
+    display: block;
+    margin: 10px;
+}
+.sub-menu-1 ul li:hover a
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background:transparent;
+    border-radius:0;
+    text-align: left;   
+}
+.p
+{
+    color: blueviolet;
+    font-size: 50px;
+    font-style: italic;
+}
+
+
+
+
+
